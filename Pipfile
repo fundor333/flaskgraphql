@@ -6,17 +6,16 @@ name = "pypi"
 
 
 [packages]
-
+sqlalchemy = "*"
+graphene-sqlalchemy = "*"
+flask = "*"
+flask-graphql = "*"
 
 
 [dev-packages]
 
 pylint = "*"
 "autopep8" = "*"
-sqlalchemy = "*"
-graphene-sqlalchemy = "*"
-flask = "*"
-flask-graphql = "*"
 
 
 [requires]
